@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Clone this repository
+1. `npm i` to install the dependency
+1. `npm start` to start the application
 
-## Available Scripts
+# Task Items
 
-In the project directory, you can run:
+## Task 1 signup page
 
-### `npm start`
+1. First Name and Last Name should be minimum 4 char length and should be only alphabets
+2. Email address should be validated and it should be valid email address
+3. Password & Confirm password should meet below requirements
+   1. Should have min 8 character length
+   2. Atleast 1 capital letter
+   3. Atleast 1 special charater
+   4. Atleast 1 number
+   5. Password & confirm password should be matching
+4. Signup button should be disabled if any of the above fileds are invalid
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Task 2 Dashboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Capture the information Firs tName, Last Name, Email address from the signup form
+2. Display the information like in the design above
+3. If user enters the dashboard page directly, the user should be redirected to the sign up page
 
-### `npm test`
+## Task 3 Routing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Use react-router-dom or any other to create route
+2. /sign-up -> should go to the signup page
+3. /dashboard -> should go to the dashboard page
 
-### `npm run build`
+# Submitting the assessment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Zip the entire project except `node_modules`
+2. Send it to pradeepkumar.r@mind-graph.com, sowjanya@mind-graph.com, mimiksha.g@mind-graph.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: This repository is created for React.js, If you feel comfortable with other languages create the setup by youself and just go for the task items given
